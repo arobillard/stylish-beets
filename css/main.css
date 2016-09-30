@@ -1,2 +1,62 @@
-/* font-family: 'PT Sans', sans-serif;
-font-family: 'PT Serif', serif; */
+html {
+  background-color: #c9b5ab;
+  font: normal 100% "PT Serif", serif;
+}
+
+h1,
+h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  color: #8f2440;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+figure + p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+.bq-cite {
+  font-size: 0.8rem
+}
+
+h2 + ol {
+  list-style-type: lower-greek;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+footer a {
+  font-family: "PT Serif", serif;
