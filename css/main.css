@@ -19,6 +19,7 @@ a {
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
   color: #8f2440;
+  font-size: 1.25;
 }
 
 a:hover {
@@ -67,6 +68,11 @@ ul {
 
 footer a {
   font-family: "PT Serif", serif;
+  font-size: 1rem;
+}
+
+small {
+  font-size: 1rem;
 }
 
 p {
